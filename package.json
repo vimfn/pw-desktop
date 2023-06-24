@@ -1,0 +1,22 @@
+{
+  "name": "physicswallah-desktop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "nvmrc": "node -v > .nvmrc",
+    "preclean": "cargo install cargo-sweep -q",
+    "clean": "cd src-tauri && cargo sweep -s && cargo build && cargo build --release && cargo sweep -f && cd ..",
+    "postinstall": "pnpm nvmrc",
+    "predev": "pnpm nvmrc",
+    "dev": "tauri dev",
+    "tauri": "tauri",
+    "rls": "dotenv-load tauri build",
+    "update": "concurrently \"pnpm upgrade \" \"cd src-tauri && cargo update\""
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.0",
+    "concurrently": "^7.0.0",
+    "dotenv-load": "^2.0.1"
+  }
+}
