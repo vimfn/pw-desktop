@@ -4,19 +4,21 @@
 )]
 
 use std::thread;
-use tauri_plugin_window_state;
 use tauri::Manager;
+use tauri_plugin_window_state;
 
 fn main() {
     tauri::Builder::default()
-    .plugin(tauri_plugin_window_state::Builder::default().build())
-    .setup(|app| {
-        let window = app.get_window("main").unwrap();
-        thread::spawn(move || {
-            window.eval("window.location.replace('https://pw.live/');").unwrap();
-        });
-        Ok(())
-    })
-    .run(tauri::generate_context!())
-    .expect("error while running tauri application");
+        .plugin(tauri_plugin_window_state::Builder::default().build())
+        .setup(|app| {
+            let window = app.get_window("main").unwrap();
+            thread::spawn(move || {
+                window
+                    .eval("window.location.replace('https://www.pw.live/study/batches/study');")
+                    .unwrap();
+            });
+            Ok(())
+        })
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
 }

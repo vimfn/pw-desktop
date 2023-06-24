@@ -1,22 +1,21 @@
-
-[output.webm](https://github.com/its-ag/PhysicsWallah-Desktop/assets/102473837/2467c856-4142-4463-8420-2f5fc7fb0d9c)
+[demo.webm](https://github.com/its-ag/PhysicsWallah-Desktop/assets/102473837/2467c856-4142-4463-8420-2f5fc7fb0d9c)
 
 <p align="center">
-<img alt="Download (Windows 7/8/10/11)" src="https://img.shields.io/github/downloads/its-ag/PhysicsWallah-Desktop/total?color=%23b7410e">
+<a href="https://github.com/its-ag/PhysicsWallah-Desktop/releases/download/v1.0.1/Physics.Wallah_1.0.1_x64_en-US.msi">
+<img alt="Download (Windows 7/8/10/11)" src="https://img.shields.io/github/downloads/its-ag/PhysicsWallah-Desktop/total?style=for-the-badge&label=Download%20(Windows%207%2F8%2F10%2F11)&labelColor=%23cba6f7&color=%23b4befe">
+</a>
 </p>
 
 ### Overview
 
-This is an efficent, and lightweight desktop app implementaion of the [PhysicsWallah](https://pw.live) website. 
+This is an efficient, and lightweight desktop app implementation of the [PhysicsWallah](https://pw.live) website. 
 
-They have a really nice website, but running within a browser thab is not always efficient and can be sometimes distracting, so that is why I made this desktop with Tauri, a modern rust framekwork.
+They have a really nice website, but running within a browser tab is not always efficient and can be sometimes distracting, so that is why I made this desktop with Tauri, a modern rust framework.
 
-I had not written some Rust code in a while so I made this simple project to brush up my Rust skills a bit (still very beginner, and contributions are very welcome).
-
-### Ussage 📦
+### Useage 📦
 
 **Download the installer:**
-- [Windows](https://github.com/its-ag/PhysicsWallah-Desktop/releases/latest/download/Physics.Wallah_1.0.0_x64_en-US.msi)
+- [Windows](https://github.com/its-ag/PhysicsWallah-Desktop/releases/download/v1.0.1/Physics.Wallah_1.0.1_x64_en-US.msi)
 - Linux and Mac (coming soon)
 
  Check [releases](https://github.com/its-ag/PhysicsWallah-Desktop/releases) tab for change logs.
@@ -24,7 +23,6 @@ I had not written some Rust code in a while so I made this simple project to bru
 ### Roadmap 🗺
 
 - [x] A Light weight desktop app
-- [x] Multithreading support.
 - [ ] Dark mode Support (WIP)
 - [ ] Linux and Mac OS support
 - [ ] *Suggest more...*
@@ -47,7 +45,7 @@ First Setup your development environment for [building Tauri Apps](https://tauri
 
 ### Help and Support 🙌
 
-![Discord Banner 3](https://discordapp.com/api/guilds/1085941898054738072/widget.png?style=banner3)
+![Discord Banner](https://discordapp.com/api/guilds/1085941898054738072/widget.png?style=banner3)
 
 ### License 📃
 
