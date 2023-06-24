@@ -1,4 +1,4 @@
-[demo.webm](https://github.com/its-ag/PhysicsWallah-Desktop/assets/102473837/2467c856-4142-4463-8420-2f5fc7fb0d9c)
+[output.webm](https://github.com/its-ag/PhysicsWallah-Desktop/assets/102473837/2467c856-4142-4463-8420-2f5fc7fb0d9c)
 
 <p align="center">
 <a href="https://github.com/its-ag/PhysicsWallah-Desktop/releases/download/v1.0.1/Physics.Wallah_1.0.1_x64_en-US.msi">
