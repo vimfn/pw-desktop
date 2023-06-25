@@ -7,13 +7,13 @@
 
 ### Overview
 
-This is an efficent, and lightweight desktop app implementaion of the [PhysicsWallah](https://pw.live) website. 
+This is an efficient, and lightweight desktop app implementation of the [PhysicsWallah](https://pw.live) website. 
 
-They have a really nice website, but running within a browser tab is not always efficient and can be sometimes distracting, so that is why I made this desktop with Tauri, a modern rust framekwork.
+They have a really nice website, but running within a browser tab is not always efficient and can be sometimes distracting, so that is why I made this desktop with Tauri, a modern rust framework.
 
 I had not written some Rust code in a while so I made this simple project to brush up my Rust skills a bit (still very beginner, and contributions are very welcome).
 
-### Ussage 📦
+### Usage 📦
 
 **Download the installer:**
 - [Windows](https://github.com/its-ag/PhysicsWallah-Desktop/releases/download/v1.0.1/Physics.Wallah_1.0.1_x64_en-US.msi)
