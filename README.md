@@ -31,8 +31,8 @@ I had not written some Rust code in a while so I made this simple project to bru
 
 
 ### Contribute 🧭
-Contributors are welcomed and greatly appreciated, you can contribute bug fixes and new features.
-> You are not allowed to add anything that will endorse piracy or will grant users any advantages over others.
+
+> Yes, my code can be incomplete and might contains bugs, if you find any bug, create an [issue](https://github.com/its-ag/PhysicsWallah-Desktop/issues). If you want to contribute to the code, please fork the repository, do your edits in your forked repository, fetch the upstreamand and create a pull request. If the contribution is good, I'll merge it with this repository. Please don't create any shit PRs (like grammatical fixes/typo(s) in README), instead create an issue for that.
 
 First Setup your development environment for [building Tauri Apps](https://tauri.app/v1/guides/getting-started/prerequisites).
 
