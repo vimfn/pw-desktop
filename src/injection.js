@@ -84,7 +84,7 @@
 
   const toggleStyleSheet = () => {
     if (window.localStorage.getItem("dark")) {
-      window.localStorage.clear("dark");
+      window.localStorage.removeItem("dark");
       styleEl.remove();
     } else {
       window.localStorage.setItem("dark", "true");
