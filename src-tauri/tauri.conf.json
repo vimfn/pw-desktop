@@ -1,7 +1,5 @@
 {
   "build": {
-    "beforeDevCommand": "",
-    "beforeBuildCommand": "",
     "devPath": "../src",
     "distDir": "../src",
     "withGlobalTauri": true
@@ -13,93 +11,11 @@
   "tauri": {
     "allowlist": {
       "all": false,
-      "clipboard": {
-        "all": false,
-        "readText": false,
-        "writeText": false
-      },
-      "dialog": {
-        "all": false,
-        "ask": false,
-        "confirm": false,
-        "message": false,
-        "open": false,
-        "save": false
-      },
-      "fs": {
-        "all": false,
-        "copyFile": false,
-        "createDir": false,
-        "exists": false,
-        "readDir": false,
-        "readFile": false,
-        "removeDir": false,
-        "removeFile": false,
-        "renameFile": false,
-        "scope": [],
-        "writeFile": false
-      },
-      "globalShortcut": {
-        "all": false
-      },
-      "http": {
-        "all": false,
-        "request": false,
-        "scope": []
-      },
-      "notification": {
-        "all": false
-      },
-      "os": {
-        "all": false
-      },
-      "path": {
-        "all": false
-      },
       "process": {
         "all": false,
         "exit": false,
         "relaunch": true,
         "relaunchDangerousAllowSymlinkMacos": false
-      },
-      "protocol": {
-        "all": false,
-        "asset": false,
-        "assetScope": []
-      },
-      "shell": {
-        "all": false,
-        "execute": false,
-        "open": false,
-        "scope": [],
-        "sidecar": false
-      },
-      "window": {
-        "all": false,
-        "center": false,
-        "close": false,
-        "create": false,
-        "hide": false,
-        "maximize": false,
-        "minimize": false,
-        "print": false,
-        "requestUserAttention": false,
-        "setAlwaysOnTop": false,
-        "setDecorations": false,
-        "setFocus": false,
-        "setFullscreen": false,
-        "setIcon": false,
-        "setMaxSize": false,
-        "setMinSize": false,
-        "setPosition": false,
-        "setResizable": false,
-        "setSize": false,
-        "setSkipTaskbar": false,
-        "setTitle": false,
-        "show": false,
-        "startDragging": false,
-        "unmaximize": false,
-        "unminimize": false
       }
     },
     "bundle": {
@@ -128,7 +44,6 @@
       },
       "resources": [],
       "shortDescription": "Unofficial Physics Wallah desktop app made with Tauri",
-      "targets": "all",
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
@@ -136,14 +51,24 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "domain": "www.pw.live",
+          "windows": ["main"],
+          "enableTauriAPI": true
+        }
+      ]
     },
     "windows": [
       {
         "fullscreen": false,
         "resizable": true,
-        "visible": false,
-        "title": "Physics Wallah"
+        "title": "Physics Wallah",
+        "url": "https://www.pw.live/study/batches",
+        "height": 750,
+        "width": 900,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
       }
     ]
   }
