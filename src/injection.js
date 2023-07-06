@@ -92,7 +92,8 @@
     }
   };
 
-  window.addEventListener("keypress", (key) => {
+  // I don't know why but windows version only fire on `keyup` event
+  window.addEventListener("keyup", (key) => {
     if (key.key == "i" && key.ctrlKey) {
       tauri.invoke("open_devtools");
     }
