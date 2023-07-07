@@ -12,7 +12,7 @@ tauri-build = { version = "1.4.0", features = [] }
 [dependencies]
 serde_json = "1.0.99"
 serde = "1.0.166"
-tauri = { version = "1.4.1", features = ["process-relaunch"] }
+tauri = { version = "1.1", features = ["process-relaunch", "devtools"] }
 tauri-plugin-window-state = "0.1.0"
 
 [features]

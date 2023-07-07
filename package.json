@@ -1,7 +1,7 @@
 {
   "name": "physicswallah-desktop",
   "private": true,
-  "version": "1.0.2-beta",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "update": "pnpm up --latest && cd src-tauri && cargo update && cd ..",
