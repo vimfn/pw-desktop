@@ -28,3 +28,5 @@ Yes, my code can be incomplete and might contains bugs, if you find any bug, cre
 ![Discord Banner 3](https://discordapp.com/api/guilds/1085941898054738072/widget.png?style=banner3)
 
 > This Project is circulated under [CC0 1.0 Universal](./LICENSE) License, see [Legal Notice](./LEGAL_NOTICE.md) here.
+
+> Looking for a minimal Web Client for PhysicsWallah website, try [batter-pw](https://github.com/Better-PW/batter-pw).
